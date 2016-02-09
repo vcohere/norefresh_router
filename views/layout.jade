@@ -1,0 +1,16 @@
+doctype html
+html(lang='fr')
+	head
+		script(src='/js/jquery.js')
+		script(src='/socket.io/socket.io.js')
+		script(src='/js/app.js')
+		title Route Test
+		link(rel="stylesheet", href="/css/style.css")
+	body
+		#container
+			#header
+				ul#nav
+					li(href='/top') Top
+					li(href='/pending') Pending
+					li(href='/favorites') Favorites
+			block content

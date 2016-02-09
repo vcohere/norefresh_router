@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	width: 60vw;
+	margin: auto;
+	height: 100%;
+}
+
+#header {
+	width: 100%;
+	padding: 30px;
+	background-color: #d9d9d9;
+}
+
+#header #nav {
+	list-style-type: none;
+}
+
+#header #nav li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
